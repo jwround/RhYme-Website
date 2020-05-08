@@ -1,0 +1,12 @@
+---
+title: "Actinobacterial acyl coenzyme a synthetases involved in steroid side-chain catabolism"
+date: 2014-01-01
+publishDate: 2020-04-30T01:14:21.538999Z
+authors: ["Israel Casabon", "Kendra Swain", "Adam M. Crowe", "Lindsay D. Eltis", "William W. Mohn"]
+publication_types: ["2"]
+abstract: "Bacterial steroid catabolism is an important component of the global carbon cycle and has applications in drug synthesis. Pathways for this catabolism involve multiple acyl CoA (CoA) synthetases, which activate alkanoate substituents for β-oxidn. The functions of these synthetases are poorly understood. We enzymically characterized four distinct acyl-CoA synthetases from the cholate catabolic pathway of Rhodococcus jostii RHA1 and the cholesterol catabolic pathway of Mycobacterium tuberculosis. Phylogenetic anal. of 70 acyl-CoA synthetases predicted to be involved in steroid metab. revealed that the characterized synthetases each represent an orthologous class with a distinct function in steroid side-chain degrdn. The synthetases were specific for the length of alkanoate substituent. FadD19 from M. tuberculosis H37Rv (FadD19Mtb) transformed 3-oxo-4-cholesten-26-oate (kcat/Km = 0.33 × 105 ± 0.03 × 105 M-1 s-1) and represents orthologs that activate the C8 side chain of cholesterol. Both CasGRHA1 and FadD17Mtb are steroid-24-oyl-CoA synthetases. CasG and its orthologs activate the C5 side chain of cholate, while FadD17 and its orthologs appear to activate the C5 side chain of one or more cholesterol metabolites. CasIRHA1 is a steroid-22-oyl-CoA synthetase, representing orthologs that activate metabolites with a C3 side chain, which accumulate during cholate catabolism. CasI had similar apparent specificities for substrates with intact or extensively degraded steroid nuclei, exemplified by 3-oxo-23,24-bisnorchol-4-en-22-oate and 1β(2'-propanoate)-3aα-H-4α(3\"-propanoate)-7aβ-methylhexahydro-5-indanone (kcat/Km = 2.4 × 105 ± 0.1 × 105 M-1 s-1 and 3.2 × 105 ± 0.3 × 105 M-1 s-1, resp.). Acyl-CoA synthetase classes involved in cholate catabolism were found in both Actinobacteria and Proteobacteria. Overall, this study provides insight into the physiol. roles of acyl-CoA synthetases in steroid catabolism and a phylogenetic classification enabling prediction of specific functions of related enzymes. [on SciFinder(R)]"
+featured: false
+publication: "*J Bacteriol*"
+doi: "10.1128/JB.01012-13"
+---
+

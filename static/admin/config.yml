@@ -2,165 +2,260 @@ backend:
   name: git-gateway
   branch: master
 media_folder: 'static/img/'
-public_folder: 'img'
+public_folder: 'img' 
+publish_mode: editorial_workflow
+
 collections:
-  - name: posts
-    label: Posts
-    label_singular: Post
-    folder: 'content/post'
+
+
+  - name: news #Seems to work well
+    label: News 
+    label_singular: News
+    editor:
+      preview: false
+    folder: 'content/news'
     path: '{{slug}}/index'
-    create: true  # Allow users to create new documents in this collection
-    fields:  # The fields each document in this collection have
+    slug: "{{year}}-{{month}}_{{title}}"
+    filter: {field: "news", value: "news"}
+    create: true  
+    fields:  
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", hint: "Aim for less then 15 words!"}
+      - {label: "Summary", name: "summary", widget: "markdown", hint: "Aim for less then ~30 words!"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish this page on", name: "date", widget: "datetime"}
-      - {label: "Summary", name: "summary", widget: "markdown"}
-      - label: "Draft"
-        name: "draft"
-        widget: "boolean"
-        default: false
-      - label: "Featured"
-        name: "featured"
-        widget: "boolean"
-        default: false
-      - label: "Authors"
-        name: "authors"
-        required: false
-        widget: "list"
-      - label: "Tags"
-        name: "tags"
-        required: false
-        widget: "list"
-      - label: "Categories"
-        name: "categories"
-        required: false
-        widget: "list"
-      - label: "Projects"
-        name: "projects"
-        required: false
-        widget: "list"
+      - {label: "Filter news articles", name: "news", widget: "hidden", default: "news"}
       - label: "Featured Image"
         name: "image"
         required: false
-        widget: object
+        widget: "object"
         fields:
-          - label: "Upload an image named `featured.jpg/png`"
+          - label: "Upload an image named `featured.jpg`"
             name: "filename"
             widget: "image"
             default: "featured"
+            required: false
+            hint: "Must be a .jpg file!"
             media_library:
               config:
                 multiple: false
           - {label: Caption, name: caption, widget: string, required: false}
-          - {label: Description for screen readers, name: alt_text, widget: string, required: false}
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
-  - name: talks
-    label: Talks
-    label_singular: Talk
-    folder: 'content/talk'
+  
+  - name: project #Seems to work well
+    label: Projects
+    label_singular: Project
+    editor:
+      preview: false
+    folder: 'content/project'
     path: '{{slug}}/index'
-    create: true  # Allow users to create new documents in this collection
-    fields:  # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Abstract", name: "abstract", widget: "text"}
-      - {label: "Where", name: "location", widget: "text"}
-      - {label: "From", name: "date", widget: "datetime"}
-      - {label: "To", name: "date_end", widget: "datetime", default: ""}
-      - {label: "All day event?", name: "all_day", widget: "boolean", default: false}
-      - label: Links/Tickets
-        name: links
-        required: false
-        widget: list
-        fields:
-          - {label: Link, name: url, widget: string}
-          - {label: Link text, name: name, widget: string, required: false}
-          - label: Icon pack
-            name: icon_pack
-            widget: select
-            multiple: false
-            required: false
-            options:
-              - {label: "None", value: ""}
-              - {label: "Solid", value: "fas"}
-              - {label: "Regular", value: "far"}
-              - {label: "Brand", value: "fab"}
-              - {label: "Academic", value: "ai"}
-          - {label: Icon, name: icon, widget: string, required: false}
-      - {label: "Event", name: "event", widget: "string"}
-      - {label: "Event link", name: "event_url", widget: "string"}
-      - {label: "Publish this page on", name: "publishDate", widget: "datetime"}
-      - {label: "Markdown slides (reference a deck in 'content/slides/')", name: "slides", widget: "string", required: false}
-      - label: "Draft"
-        name: "draft"
-        widget: "boolean"
-        default: false
-      - label: "Featured"
-        name: "featured"
-        widget: "boolean"
-        default: false
-      - label: "Authors"
-        name: "authors"
-        required: false
-        widget: "list"
-      - label: "Tags"
-        name: "tags"
-        required: false
-        widget: "list"
-      - label: "Categories"
-        name: "categories"
-        required: false
-        widget: "list"
-      - label: "Projects (reference projects in 'content/project/')"
-        name: "projects"
-        required: false
-        widget: "list"
+    identifier_field: "{{slug}}"
+    create: true  
+    fields: 
+      - {label: "Title", name: "title", widget: "markdown", hint: "Use <sup>superscripts</sup> and <sub>subscripts</sub> tags as needed"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", hint: "Aim for less then 15 words!"}
+      - {label: "Summary", name: "summary", widget: "markdown", hint: "Aim for less then ~30 words!"}
+      - {label: "Body", name: "body", widget: "markdown"}
       - label: "Featured Image"
         name: "image"
-        required: false
-        widget: object
+        required: true
+        widget: "object"
         fields:
-          - label: "Upload an image named `featured.jpg/png`"
+          - label: "Upload an image named `featured.jpg`"
             name: "filename"
             widget: "image"
             default: "featured"
+            hint: "Must be a .jpg file!"
             media_library:
               config:
                 multiple: false
           - {label: Caption, name: caption, widget: string, required: false}
-          - {label: Description for screen readers, name: alt_text, widget: string, required: false}
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
-          - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
-      - {label: "Details", name: "body", widget: "markdown"}
-  - name: pages
-    label: "Pages"
+          - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}  
+
+  - name: pulication #Seems to work well
+    label: Publications
+    label_singular: Publication
+    editor:
+      preview: false
+    folder: 'content/publication'
+    slug: "{{year}}-{{last_name_first_author}}_{{publication}}"
+    path: '{{slug}}/index'  # Store talks in publication folder as "year-(First author last name)", e.g. `2019-Round-Green_Chem`.
+    filter: {field: "filter_publication", value: "publication"}
+    summary: "{{year}}-{{last_name_first_author}}-{{publication}}"
+    create: true  
+    fields:  
+      - {label: "Title", name: "title", widget: "markdown", hint: "Use sentence case. Use <sup>superscripts</sup> and <sub>subscripts</sub> tags as needed"}
+      - {label: "Article publishing date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: false, hint: "ex. 2020-11-25"}
+      - {label: "Last name of the first author", name: "last_name_first_author", widget: "string", hint: "ex. 'Round'"}
+      - label: "Authors"
+        name: "authors"
+        widget: "list"
+        collapsed: false
+        hint: "Format = 'Firstname' 'Middel Intials'. 'Lastname' (ex. James W. Round)"
+        field: {label: Name, name: name, widget: string}    
+      - {label: "Journal", name: "publication", widget: "markdown", hint: " Please use italics and standard ISO 4 journal abbreviations!!!"}
+      - {label: "Article DOI", name: "doi", widget: "string"} 
+      - {label: "Abstract", name: "abstract", widget: "markdown"}
+      - {label: "Featured", name: "featured", widget: "hidden", default: false}
+      - {label: "Featured", name: "filter_publication", widget: "hidden", default: "publication"}
+
+  - name: team #Seems to work well
+    label: Team members  
+    label_singular: Team member
+    editor:
+      preview: false
+    folder: 'content/team'
+    path: '{{slug}}/_index'
+    summary: "{{title}}"
+    create: true  
+    fields:  
+      - {label: "Name", name: "title", widget: "string", hint: Format = Firstname Lastname (ex. James Round)}
+      - {label: "Super user", name: "superuser", widget: "hidden", default: false}
+      - label: "Role"
+        name: "user_groups"
+        widget: "select"
+        multiple: true
+        min: 1
+        max: 1
+        hint: "Pick one role!"
+        options:
+          - {label: "Principal Investigator", value: "Principal Investigator"}
+          - {label: "Researcher", value: "Researchers"}
+          - {label: "Graduate student", value: "Graduate students"}       
+          - {label: "Technician", value: "Technicians"}
+          - {label: "Visitor", value: "Visitors"}
+          - {label: "Alumni", value: "Alumni"}
+      - label: "Postion"
+        name: "role"
+        widget: "select"
+        options: ["Professor","Research associate", "Postdoctoral fellow", "PhD candidate", "PhD student", "MSc student", "Lab manager", "Technician", "Alumni"]
+      - label: "Organization and departments"
+        name: "organizations"
+        widget: "list"
+        allow_add: true
+        hint: "Add Insitutions and departmental affiliations"
+        collapsed: false
+        fields: 
+          - label: "Insitution/department"
+            name: "name"
+            widget: "string"
+            hint: "ex. University of British Columbia or Microbiology and Immunology"
+          - label: "Url link for department or insitution"
+            name: "url"
+            widget: "string"
+            hint: "Add a url to create a link (ex. https://www.microbiology.ubc.ca/). This field can also be left blank to not have a link "
+            required: false
+      - label: "Scientific interests"
+        name: "interests"
+        widget: "list"
+        allow_add: true
+        collapsed: false
+        hint: "Max 4! Scientific interests only please!"
+        field: {label: "Interests", name: "interest", widget: "string", hint: 'Add a scientific interest (ex. Enzymology or Metalloproteins'}
+      - label: "Education"
+        name: "education"
+        widget: "object"
+        fields: 
+          - label: "Education"
+            name: "courses"
+            widget: "list"
+            allow_add: true
+            collapsed: false
+            fields: 
+                        - label: "Degree"
+                          name: "course"
+                          widget: "string"
+                          hint: "ex. PhD, Microbiology and Immunology"
+                        - label: "Insitution"
+                          name: "institution"
+                          widget: "string"
+                          hint: "ex. University of British Columbia"
+                        - label: "Year of completion"
+                          name: "year"
+                          widget: "string"
+                          hint: "ex. 2018"
+      - label: "Social links"
+        name: "social"
+        widget: "list"
+        allow_add: true
+        collapsed: false
+        hint: "Please enter your email! Then add any additional social apps that you want to use!"
+        fields: 
+            - {label: "Icon", name: "icon", widget: "string", default: "envelope", hint: "For email = 'envelope',   For LinkedIn = 'linkedin',   For Google scolar = 'google-scholar',   For GitHub = 'github',    For Twitter = 'twitter'"}
+            - {label: "Icon pack", name: "icon_pack", widget: "string", default: "fas", hint: "For email = 'fas',   For LinkedIn = 'fab',   For Google scolar = 'ai',   For GitHub = 'fab',    For Twitter = 'fab'"}
+            - {label: "Link", name: "link", widget: "string", default: "mailto:your-email@domain.com", hint: "For email = 'mailto:your-email@domain.com (ex. mailto:jround@mail.ubc.ca)',   For social sites = Url to your profile"}                  
+      - {label: "Biography", name: "body", widget: "markdown", hint: "Aim for 100-150 words!"}
+      - label: "Upload an image named `avatar.jpg` for your headshot"
+        name: "filename"
+        widget: "image"
+        default: "avatar"
+        hint: "Must be a .jpg file! Ideal file size: ~300-400kb, try to have your face centered in the image"
+        media_library:
+          config:
+            multiple: false
+
+
+
+  - name: homepage
+    label: "Edit the Homepage"
+    editor:
+      preview: false
     files:
-      - file: "content/privacy.md"
-        label: "Privacy Policy"
-        name: "privacy"
+      - file: "content/home/about.md"
+        label: "Title and Header Image"
+        name: "head"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Publish Date", name: "date", widget: "datetime"}
-          - {label: "Subtitle", name: "subtitle", widget: "string"}
-          - {label: "Summary", name: "summary", widget: "markdown"}
-          - label: "Draft"
-            name: "draft"
-            required: false
-            widget: "boolean"
-            default: false
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "content/terms.md"
-        label: "Terms"
-        name: "terms"
+          - {label: "Title", name: "body", widget: "markdown", hint: "'heading 3' <h3> is a good size for this text!"}
+          - label: "Header Image: Upload an image named `home.jpg`"
+            name: "filename"
+            widget: "image"
+            default: "home"
+            hint: "Header background image. Must be a .jpg file! Ideal dimensions: 1280px w, 840px h"
+            media_library:
+              config:
+                multiple: false
+        
+      - file: "content/home/about-description.md"
+        label: "About"
+        name: "about"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Publish Date", name: "date", widget: "datetime"}
-          - {label: "Subtitle", name: "subtitle", widget: "string"}
-          - {label: "Summary", name: "summary", widget: "markdown"}
-          - label: "Draft"
-            name: "draft"
-            required: false
-            widget: "boolean"
-            default: false
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "About the lab", name: "body", widget: "markdown", hint: "100-150 words max!"}
+          - label: "Upload a small image/logo named `about.png`"
+            name: "filename"
+            widget: "image"
+            default: "about"
+            hint: "Displays to the right of the 'About' text. Must be a .png file! Ideal dimensions: ~100px w, ~150px h"
+            media_library:
+              config:
+                multiple: false
+
+      - file: "content/home/slider.md"
+        label: "Image slider"
+        name: "slider"
+        fields:
+          - label: "Slider image 1: Upload an image named `slide1.jpg`"
+            name: "filename1"
+            widget: "image"
+            default: "slide1.jpg"
+            hint: "Must be a .jpg file! Ideal dimensions: ~1200px w, ~800px h, Ideal file size: ~300-400kb. If having issues uploading new images, use the 'Media' tab on CMS homepage."
+            media_library:
+              config:
+                multiple: false
+          - label: "Slider image 2:Upload an image named `slide2.jpg`"
+            name: "filename2"
+            widget: "image"
+            default: "slide2.jpg"
+            hint: "Must be a .jpg file! Ideal dimensions: ~1200px w, ~800px h, Ideal file size: ~300-400kb."
+            media_library:
+              config:
+                multiple: false
+          - label: "Slider image 3:Upload an image named `slide3.jpg`"
+            name: "filename3"
+            widget: "image"
+            default: "slide3.jpg"
+            hint: "Must be a .jpg file! Ideal dimensions: ~1200px w, ~800px h, Ideal file size: ~300-400kb."
+            media_library:
+              config:
+                multiple: false

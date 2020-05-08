@@ -1,14 +1,25 @@
-+++
-# About widget.
-widget = "about"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 20  # Order that this section will appear in.
-
-title = "Biography"
-
-# Choose the user profile to display
-# This should be the username of a profile in your `content/authors/` folder.
-# See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
-author = "admin"
-+++
+---
+advanced:
+  css_style: ""
+  css_class: ""
+widget: blank-left-aligned
+active: true
+filename: img/home.jpg
+subtitle: ""
+title: ""
+weight: 10
+headless: true
+design:
+  columns: "2"
+  background:
+    image: home.jpg
+    image_darken: 0.7
+    text_color_light: true
+  spacing:
+    padding:
+      - 300px
+      - "0"
+      - 15px
+      - "0"
+---
+<h3>Microbial catabolism: Drug targets to biocatalysts</h3>

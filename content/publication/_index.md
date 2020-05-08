@@ -1,5 +1,6 @@
 ---
-title: Publications
+title: Recent publications
+subtitle:  <a href="https://scholar.google.ca/citations?user=GywiPOMAAAAJ&hl=en">Find a complete list on Google scholar >></a> 
 
 # View.
 #   1 = List
