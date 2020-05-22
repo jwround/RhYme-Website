@@ -41,7 +41,7 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = "Eltis Lab"
+org_name = "RhYme Biotechnology"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = "Using enzymatic and metabolomic frameworks to explore actinobacterial physiology and applications"
@@ -81,8 +81,8 @@ edit_page = {repo_url = "", content_dir = "", repo_branch = "master", editable =
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "leltis@mail.ubc.ca"
-phone = "604-822-0042"
+email = ""
+phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
@@ -93,7 +93,7 @@ address = {street = "2350 Health Sciences Mall", city = "Vancouver", region = "B
 coordinates = {latitude = "49.262403", longitude = "-123.244952"}
 
 # Directions for visitors to locate you.
-directions = "University of British Columbia: Life Sciences Centre: Room 4508" 
+directions = "University of British Columbia: Life Sciences Centre" 
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -113,7 +113,7 @@ contact_links = [
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = ""
+sharing_image = "about.png"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
 twitter = ""
@@ -136,17 +136,17 @@ address_format = "en-us"
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "l", show_logo = true}
+main_menu = {align = "r", show_logo = true}
 
 # Show estimated reading time for posts? (true/false)
-reading_time = true
+reading_time = false
 
 # Display next/previous section pager? (true/false)
 section_pager = false
 docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 
 # Enable in-built social sharing buttons? (true/false)
-sharing = false
+sharing = true
 
 # Link authors to their profile page? (true/false)
 link_authors = false

@@ -8,15 +8,15 @@ lastname: Round
 superuser: false
 
 # Role/position
-role: Postdoctoral fellow
+role: Director, Co-founder
 
 # Organizations/Affiliations
 
 organizations:
-- name: Univeristy of British Columbia
+- name: 
   url: ""
-- name: Microbiology and Immunology
-  url: "https://www.microbiology.ubc.ca/"
+- name: 
+  url: 
 
 interests:
 - Synthetic biology
@@ -46,6 +46,9 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=cdOj6lYAAAAJ&hl=en&oi=ao
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0003-4736-5755
   - icon: github
     icon_pack: fab
     link: https://github.com/jwround
@@ -56,7 +59,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
+- Founders
 ---
 
 Oleaginous bacteria have considerable potential for the sustainable production of lipid-based chemicals. James' research characterized and exploited lipid biosynthesis enzymes to create a biocatalyst. The work provides insight into bacterial lipid biosynthesis and facilitates the development of processes to sustainably produce oleochemicals.

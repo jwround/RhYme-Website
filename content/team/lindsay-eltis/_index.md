@@ -8,7 +8,7 @@ lastname: Eltis
 superuser: false
 
 # Role/position
-role: Professor
+role: Co-founder, Head of SAB, Professor
 
 # Organizations/Affiliations
 organizations:
@@ -42,6 +42,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.ca/citations?user=GywiPOMAAAAJ&hl=en
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-6774-8158
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -57,7 +60,7 @@ image:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Principal Investigator
+- Founders
 
 ---
 

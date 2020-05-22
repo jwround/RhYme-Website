@@ -2,24 +2,23 @@
 advanced:
   css_style: ""
   css_class: ""
-widget: blank-left-aligned
+widget: about
 active: true
-filename: img/home.jpg
+filename: img/about.png
 subtitle: ""
-title: ""
-weight: 10
+title: "About us"
+weight: 15
 headless: true
 design:
   columns: "2"
   background:
-    image: home.jpg
-    image_darken: 0.7
-    text_color_light: true
+    text_color_light: false
   spacing:
     padding:
-      - 300px
+      - 125px
       - "0"
-      - 15px
+      - 150px
       - "0"
+hero_media: about.png
 ---
-<h3>Microbial catabolism: Drug targets to biocatalysts</h3>
+RhYme Biotechnology uses biological engineering and microbial fermentation to harness a soil bacterium as a biocatalyst to produce sustainable high-value lipids. 
