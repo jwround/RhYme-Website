@@ -2,24 +2,40 @@
 advanced:
   css_style: ""
   css_class: ""
-widget: blank-left-aligned
+widget: hero-centered
 active: true
 filename: img/home.jpg
 subtitle: ""
-title: ""
+title: "TEST"
 weight: 10
 headless: true
 design:
   columns: "2"
   background:
     image: home.jpg
-    image_darken: 0.5
+    image_darken: 0.7
     text_color_light: true
   spacing:
     padding:
-      - 300px
+      - 200px
       - "0"
-      - 150px
+      - 100px
       - "0"
+
+cta:
+  url: "#projects"
+  label: "Our products"
+  icon_pack: "fas"
+  icon: "vial"
+
+cta_alt:
+  url: "/technology"
+  label: "Our technology"
+
+
+
+
 ---
 <h3>Sustainable science for high-performance products</h3>
+
+*test test test*

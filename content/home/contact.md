@@ -5,8 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
-title = "Contact"
-subtitle = ""
+title = "Contact us"
+subtitle = "Get in touch with us"
 
 # Automatically link email and phone?
 autolink = true
@@ -15,7 +15,7 @@ autolink = true
 #   0: Disable email form
 #   1: Netlify (requires that the site is hosted by Netlify)
 #   2: formspree.io
-email_form = 0
+email_form = 1
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.

@@ -17,7 +17,7 @@ design:
     padding:
       - 125px
       - "0"
-      - 150px
+      - 125px
       - "0"
 hero_media: about.png
 ---
