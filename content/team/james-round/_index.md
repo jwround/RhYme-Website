@@ -1,6 +1,7 @@
 ---
 # Display name
 title: James Round
+weight: 10
 firstname: James
 lastname: Round
 
@@ -8,7 +9,7 @@ lastname: Round
 superuser: false
 
 # Role/position
-role: Director, Co-founder
+role: Director
 
 # Organizations/Affiliations
 

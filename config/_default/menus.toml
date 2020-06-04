@@ -4,15 +4,14 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Products"
-  url = "#projects"
+  name = "Product"
+  url = "#actinowax"
   weight = 10
 
 [[main]]
   name = "Technology"
   url = "technology/"
   weight = 20
-
 
 [[main]]
   name = "Partnership"
@@ -23,11 +22,6 @@
   name = "Team"
   url = "people/"
   weight = 40
-
-[[main]]
-  name = "News"
-  url = "#news"
-  weight = 50
 
 [[main]]
   name = "Contact"

@@ -36,6 +36,6 @@ cta_alt:
 
 
 ---
-<h3>Sustainable science for high-performance products</h3>
+<h3>Uncompromising preformance and responsibility</h3>
 
 *test test test*

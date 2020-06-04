@@ -1,9 +1,10 @@
 ---
 title: Raphael Roccor
+weight: 20
 superuser: false
 user_groups:
   - Founders
-role: Director, Co-founder
+role: Director
 organizations:
   - name: 
     url: ""

@@ -1,6 +1,7 @@
 ---
 # Display name
 title: Lindsay Eltis
+weight: 30
 firstname: Lindsay
 lastname: Eltis
 
@@ -8,7 +9,7 @@ lastname: Eltis
 superuser: false
 
 # Role/position
-role: Co-founder, Head of SAB, Professor
+role: Head of SAB, Professor
 
 # Organizations/Affiliations
 organizations:
