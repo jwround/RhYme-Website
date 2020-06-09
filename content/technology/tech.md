@@ -7,11 +7,13 @@ active: true
 filename: img/about.png
 subtitle: "
 
-<b>*Unlocked with biology*</b>
+<b>*Better materials through biology*</b>
 <br>
 
 
-Microbial catabolic activities underpin life on our planet. On the global scale, these enzymes and pathways are essential to the carbon cycle of the biosphere. They also maintain the health of all ecosystems ranging from ocean and forest environments to the different parts of the human body. 
+Microbial activities establish the foundation for life on our planet. Tapping into this potential, we can create sustainable bio-based materials that preform better for both us and our planet.
+
+
 
 "
 title: "Our technology"
@@ -32,8 +34,8 @@ hero_media: rhodococcus.png
 
 ---
 
+***New technologies are helping to solve global problems***
 
-*<b>Actinowax™ is a luxurious emollient with a skin-temperature melting point and a unique composition of wax esters comparable to those found on youthful skin and hair.</b>*
+Our world relies on lipid-based chemicals, we use them in our cosmetics, lubricants, foods, and fuels. But as demands for these products grow, so does the environmental and societal burden associated with the palm oil from which most are derived. Rising consumer awareness is challenging industries to reduce their dependence on palm oil, but current technologies are struggling to provide alternatives.
 
-In the cosmetic industry, wax ester-based emollients are highly sought for their excellent absorptive and sensory properties, as well as their formulative stability. Actinowax™, a complex wax ester-rich material, is well positioned as a high-performance emollient for premium cosmetic and personal care products. A “dry” emollient with a melting point just below skin temperature, Actinowax™ imparts luxurious, light, and non-greasy sensory properties that can be formulated over a wide range of applications. Specific applications include use as a stabilizer and co-emulsifier in skin creams and hair conditioners, and as a wetting agent in sunscreens and colour cosmetics.
-
+RhYme Biotechnology is harnessing the power of *Rhodococcus*, a naturally occurring soil bacterium, to create high-value lipid-based molecules. By applying advances in DNA technology and biological engineering, we are developing technologies that biocatalysts that convert sustainable sugars into products that not only reduce our dependence on palm oil, but also preform better than what is currently available. 

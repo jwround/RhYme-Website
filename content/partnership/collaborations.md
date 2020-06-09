@@ -29,7 +29,8 @@ cta:
   icon: "file-alt"
 ---
 
-RhYme is developing technologies to bring uncompromising high-performance emollients to cosmetics. We would love your help. 
+*RhYme is developing technologies to bring uncompromising high-performance emollients to cosmetics* 
 
-We aim to develop partnerships to scale-up and manufacture cosmetic products, encompassing expertise in the development and deployment of cosmetic products and ingredients. As an interim step, we are also interested in speaking to potential co-development partners with medium- to high-throughput strain engineering and fermentation infrastructure. 
+To make sure we can make a positive impact on the world, we are developing partnerships to scale and deploy our technology. If you are a **cosmetic brand or manufacturer**, a **biotechnology company involved in strain engineering or biomanufacturing**, or if you just think what we are doing is really cool, we would love to talk to you.
+
 <br>
