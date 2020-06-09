@@ -3,7 +3,7 @@ advanced:
   css_style: ""
   css_class: ""
 widget: hero-centered
-active: true
+active: false
 filename: img/home.jpg
 subtitle: ""
 title: "TEST"
@@ -13,11 +13,11 @@ design:
   columns: "2"
   background:
     image: home.jpg
-    image_darken: 0.7
+    image_darken: 0.3
     text_color_light: true
   spacing:
     padding:
-      - 200px
+      - 100px
       - "0"
       - 100px
       - "0"

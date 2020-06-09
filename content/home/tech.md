@@ -12,6 +12,7 @@ headless: true
 design:
   columns: "2"
   background:
+    color: rgb(255, 255, 255)
     text_color_light: false
     image: "forest-left.png"  # Name of image in `static/img/`.
     image_darken: 0  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
@@ -22,10 +23,10 @@ design:
     padding:
       - 100px
       - "0"
-      - 100px
+      - 50px
       - "0"
 cta:
-  url: "#projects"
+  url: "#actinowax"
   label: "Our products"
   icon_pack: "fas"
   icon: "vial"

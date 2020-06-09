@@ -15,9 +15,9 @@ design:
     text_color_light: false
   spacing:
     padding:
-      - 125px
+      - 50px
       - "0"
-      - 125px
+      - 100px
       - "0"
 hero_media: 
 cta:

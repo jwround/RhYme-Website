@@ -37,7 +37,7 @@ subtitle = "RhYme (for Rhodoccocal Enzymology) was founded by Lindsay Eltis, Jam
   #   Any HTML color name or Hex value is valid.
   
   # Background color.
-  # color = "navy"
+ color = "rgb(255, 255, 255)"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"

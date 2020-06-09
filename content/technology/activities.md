@@ -32,6 +32,9 @@ subtitle = ""
   name = "Sustainable biomaterials"
   description = ""  
 
+[design.background] 
+  color = "rgb(255, 255, 255)"
+
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
   padding = ["50px", "0", "50px", "0"]

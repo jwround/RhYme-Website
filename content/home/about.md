@@ -6,7 +6,7 @@ widget: about
 active: true
 filename: img/about.png
 subtitle: ""
-title: "About us"
+title: ""
 weight: 15
 headless: true
 design:
@@ -17,7 +17,7 @@ design:
     padding:
       - 125px
       - "0"
-      - 125px
+      - 50px
       - "0"
 hero_media: about.png
 ---

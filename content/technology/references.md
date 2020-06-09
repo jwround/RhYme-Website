@@ -13,6 +13,7 @@ design:
   columns: "2"
   background:
     text_color_light: false
+    color: rgb(247, 247, 247)
   spacing:
     padding:
       - 25px

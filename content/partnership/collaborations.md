@@ -13,6 +13,7 @@ design:
   columns: "2"
   background:
     text_color_light: false
+    color: rgb(255, 255, 255)
   spacing:
     padding:
       - 25px
@@ -28,9 +29,7 @@ cta:
   icon: "file-alt"
 ---
 
-RhYme Biotechnology is building a team with deep expertise in the use and engineering of *Rhodococcus* and product development through strategic out-sourcing and partnerships. We seek to find strategic partners in the following areas to co-develop and distribute our technology. 
-
-
+RhYme is developing technologies to bring uncompromising high-performance emollients to cosmetics. We would love your help. 
 
 We aim to develop partnerships to scale-up and manufacture cosmetic products, encompassing expertise in the development and deployment of cosmetic products and ingredients. As an interim step, we are also interested in speaking to potential co-development partners with medium- to high-throughput strain engineering and fermentation infrastructure. 
 <br>
