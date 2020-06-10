@@ -1,0 +1,11 @@
+// Override this file to add your own SCSS styling.
+
+.navbar-brand img {
+  width: auto;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: -webkit-stretch;
+  height: stretch;
+  max-height: 40px;  // For lg+ responsive sizing. 40px height +10px v-padding = 70px
+  max-width: fit-content;  // Must override default responsive image style.
+  }
