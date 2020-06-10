@@ -4,31 +4,13 @@
 
 
 <div class="row">
-  <div class="col-md-7 order-md-1 text-center text-md-left">
+  <div class="col-md-11 order-md-1 text-center text-md-left">
 
 
     <h1 class="hero-title">
       {{ with $page.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
       {{ with $page.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
     </h1>
-
-
-
-    
-
-
-
-  {{/* Hero image */}}
-
-  </div>
-  <div class="col-md-5 ml-auto mx-auto my-auto order-md-3 hero-media">
-    <img src="{{ printf "img/%s" $page.Params.hero_media | relURL }}" alt="">
-  </div>
-</div>
-
-<div class="row">
-
-  <div class="col-md-12 order-md-1 text-center text-md-left">
 
     {{ with $page.Content }}
     <div class="">{{ . }}</div>
@@ -74,6 +56,13 @@
     </p>
     {{ end }}
 
-  </div>
 
+
+  {{/* Hero image */}}
+
+  </div>
+  <div class="col-md-1 ml-auto mx-auto my-auto order-md-3 hero-media">
+    <img src="{{ printf "img/%s" $page.Params.hero_media | relURL }}" alt="">
+  </div>
 </div>
+

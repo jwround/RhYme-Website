@@ -2,7 +2,7 @@
 advanced:
   css_style: ""
   css_class: ""
-widget: actinowax
+widget: actinowax2
 active: true
 filename: img/about.png
 title: ""

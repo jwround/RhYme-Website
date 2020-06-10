@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = " "
-subtitle = "RhYme (for Rhodoccocal Enzymology) was founded by Lindsay Eltis, James Round, and Raphael Roccor to develop and commercialize a microbial fermentation technology created at the University of British Columbia."
+subtitle = "RhYme (for Rhodoccocal Enzymology) was founded by Lindsay Eltis, James Round, and Raphael Roccor to develop and commercialize a microbial fermentation technology created at the University of British Columbia"
 
 [content]
   # Choose which groups/teams of users to display.

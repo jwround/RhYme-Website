@@ -15,11 +15,11 @@ design:
     text_color_light: false
   spacing:
     padding:
-      - 75px
+      - 100px
       - "0"
-      - 75px
+      - 100px
       - "0"
 hero_media: about.png
 ---
 
-Biotechnology is changing how we interact with our world, delivering innovative solutions to the challenges facing our planet.
+Biotechnology is changing how we interact with our world, allowing us to deliver innovative solutions to the challenges facing our planet

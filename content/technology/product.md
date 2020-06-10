@@ -2,7 +2,7 @@
 advanced:
   css_style: ""
   css_class: ""
-widget: actinowax
+widget: actinowax2
 active: true
 filename: img/about.png
 subtitle: "*RhYme's technology delivers an uncompromising high-performance emollient*"
