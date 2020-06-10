@@ -34,7 +34,7 @@ Wax ester-based emollients are highly sought for their excellent cosmetic proper
 
 ***A unique combination of molecules***
 
-Actinowax™ is a unique source of both branched- and odd-chain wax esters, which have been shown to improve and strengthen the cutaneous barrier, smoothing skin and preventing transepidermal water loss (1, 2). Indeed, the wax esters of Actinowax™ are highly similar to those found on human skin and hair (3, 4). As we age, our body produces reduced amounts of wax esters (5), by replacing them, products that incorporate Actinowax™ may prevent and reverse signs of ageing.
+Actinowax™ is a unique source of both branched- and odd-chain wax esters, which have been shown to improve and strengthen the cutaneous barrier, smoothing skin and preventing transepidermal water loss (1, 2). Indeed, the wax esters of Actinowax™ are highly similar to those found on human skin and hair (3, 4). As we age, our body produces reduced amounts of wax esters (5). By replacing them, products that incorporate Actinowax™ may prevent and reverse signs of ageing.
 
 *<b>A prebiotic for healthy skin</b>*
 
