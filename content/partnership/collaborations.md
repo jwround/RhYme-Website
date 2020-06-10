@@ -31,6 +31,6 @@ cta:
 
 *RhYme is developing technologies to bring uncompromising high-performance emollients to cosmetics* 
 
-To make sure we can make a positive impact on the world, we are developing partnerships to scale and deploy our technology. If you are a **cosmetic brand or manufacturer**, a **biotechnology company involved in strain engineering or biomanufacturing**, or if you just think what we are doing is really cool, we would love to talk to you.
+To make a positive impact on the world, we are developing partnerships to scale and deploy our technology. If you are a **cosmetic brand or manufacturer**, a **biotechnology company involved in strain engineering or biomanufacturing**, or if you just think what we are doing is really cool, we would love to talk to you.
 
 <br>

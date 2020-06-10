@@ -16,6 +16,9 @@ interests:
   - Actinobacteria
 education:
   courses:
+    - course: PhD Candidate, Microbiology and Immunology
+      institution: University of British Columbia
+      year: ""
     - course: Diplom, Biochemistry
       institution: Universität Tübingen
       year: "2011"
