@@ -40,6 +40,6 @@ cta_alt:
 
 Rhyme Biotechnology is developing technologies to deliver sustainable and high-performance ingredients for premium cosmetics
 
-<center><b><i>No longer compromise performance for sustainability<br></i></b></center>
+<center><b><i>No longer sacrifice performance for sustainability<br></i></b></center>
 
 <br>

@@ -5,7 +5,7 @@ advanced:
 widget: actinowax
 active: true
 filename: img/about.png
-subtitle: "***Uncompromising performance***<br>
+subtitle: "***Unparalleled performance***<br>
 
 
 Actinowax™ is a wax ester-based emollient for premium cosmetic and personal care products. With a melting point just below skin temperature, Actinowax™ imparts luxurious, light, and non-greasy sensory properties that can be formulated over a wide range of applications. As a unique source of branched- and odd-chain wax esters that are naturally found on human skin, Actinowax™ helps to improve and strengthen the cutaneous barrier, smoothing skin and preventing transepidermal water loss."
