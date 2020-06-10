@@ -6,7 +6,7 @@ widget: hero-right-aligned
 active: true
 
 subtitle: ""
-title: "We believe in great ideas"
+title: ""
 weight: 20
 headless: true
 design:
@@ -17,13 +17,13 @@ design:
     image: "forest-left.png"  # Name of image in `static/img/`.
     image_darken: 0  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
     image_size: "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
-    image_position: "left"  # Options include `left`, `center` (default), or `right`.
+    image_position: "right"  # Options include `left`, `center` (default), or `right`.
     image_parallax: true  # Use a fun parallax-like fixed background effect? true/false
   spacing:
     padding:
-      - 100px
+      - 75px
       - "0"
-      - 50px
+      - 75px
       - "0"
 cta:
   url: "#actinowax"
@@ -36,4 +36,12 @@ cta_alt:
   label: "Our technology"
 
 ---
-We at Rhyme Biotechnology believe that biological engineering can deliver innovative solutions to many of the challenges facing humankind.
+### <center>Uncompromising products</center>
+
+*Rhyme Biotechnology is developing technologies to deliver better performing and more sustainable ingredients for cosmetic products.*
+
+*RhYme’s biocatalysts delivers an uncompromising high-performance emollient for premium cosmetics.*
+
+<center><b><i>No longer compromise performance for sustainability</i></b></center>
+
+<br>

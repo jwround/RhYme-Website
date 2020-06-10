@@ -5,7 +5,7 @@ advanced:
 widget: actinowax
 active: true
 filename: img/about.png
-subtitle: "*An uncompromising high-performance emollient*"
+subtitle: "*RhYme's technology delivers an uncompromising high-performance emollient*"
 title: "Actinowax&trade;"
 weight: 15
 headless: true
@@ -42,6 +42,8 @@ The branched- and odd-chain wax esters found in Actinowax™ may promote a balan
 
 *<b>Sustainability, logistics, and quality</b>*
 
-The fermentation technology that produces Actinowax™ will allow cosmetic brands to reduce their dependence on palm-based ingredients, decreasing their ecological footprint and highlighting their commitment to environmental stewardship. Actinowax™ will also simplify the logistics of cosmetic manufacturing. Compared to the supply challenges associated with many traditional plant-oils, the Actinowax™ production process is highly scalable, allowing supply to rapidly adjust to demand, and will consistently deliver high-quality products that are resistant to supply interruptions and price volatility.
+The sustainable fermentation technology that produces Actinowax™ will allow cosmetic brands to reduce their dependence on palm-based ingredients, decreasing their ecological footprint and highlighting their commitment to environmental stewardship. 
+
+Actinowax™ will also simplify the logistics of cosmetic manufacturing. Compared to the supply challenges associated with many traditional plant-oils, the Actinowax™ production process is highly scalable, allowing supply to rapidly adjust to demand, and will consistently deliver high-quality products that are resistant to supply interruptions and price volatility.
 
 <br>
