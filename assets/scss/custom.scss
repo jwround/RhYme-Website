@@ -6,6 +6,6 @@
   height: -webkit-fill-available;
   height: -webkit-stretch;
   height: stretch;
-  max-height: 40px;  // For lg+ responsive sizing. 40px height +10px v-padding = 70px
+  max-height: 35px;  // For lg+ responsive sizing. 60px height +10px v-padding = 70px
   max-width: fit-content;  // Must override default responsive image style.
   }
