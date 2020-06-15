@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = "RhYme Biotechnology"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Using enzymatic and metabolomic frameworks to explore actinobacterial physiology and applications"
+description = "Rhyme Biotechnology is developing technologies to deliver cosmetic ingredients that have unparalleled performance and uncompromising sustainable."
 
 ############################
 ## Site Features
