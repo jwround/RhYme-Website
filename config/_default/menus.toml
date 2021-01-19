@@ -4,29 +4,29 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Product"
-  url = "#actinowax"
+  name = "SHOP"
+  url = "/shop"
   weight = 10
 
 [[main]]
-  name = "Technology"
-  url = "technology/"
+  name = "OUR STORY"
+  url = "/about"
   weight = 20
 
 [[main]]
-  name = "Partnership"
-  url = "partnership/"
+  name = "OUR SCIENCE"
+  url = "/science"
   weight = 30
 
 [[main]]
-  name = "Team"
-  url = "people/"
-  weight = 40
+  name = "A SUSTAINABLE CHOICE"
+  url = "/sustainability"
+  weight = 40  
 
 [[main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 60
+  name = "SAVING OUR RAINFORESTS"
+  url = "/the-palm-oil-problem"
+  weight = 50  
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

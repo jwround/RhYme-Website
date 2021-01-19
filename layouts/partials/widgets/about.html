@@ -3,8 +3,8 @@
 {{ $bg := $page.Params.design.background }}
 
 
-<div class="row align-items-center">
-  <div class="col-md-7 order-md-1 text-center text-md-center">
+<div class="row align-items-center" style="height: 800px;">
+  <div class="col-md-5 col-8 order-md-1 text-left text-md-left">
 
 
     <h1 class="hero-title">
@@ -30,7 +30,7 @@
       {{ else if in (slice "http" "https") $scheme }}
         {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
       {{ end }}
-    <p class="cta-btns">
+    <p class="cta-btns text-center">
       <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="btn {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg">{{ if $page.Params.cta.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1" aria-hidden="true"></i>{{end}}{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}</a>
 
       {{/* Alternative Call-to-action link */}}
@@ -60,8 +60,6 @@
   {{/* Hero image */}}
 
   </div>
-  <div class="col-md-3 ml-auto mx-auto my-auto order-md-3 hero-media">
-    <img src="{{ printf "img/%s" $page.Params.hero_media | relURL }}" alt="">
-  </div>
+
 </div>
 

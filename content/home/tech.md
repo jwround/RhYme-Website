@@ -7,7 +7,7 @@ active: true
 
 subtitle: ""
 title: ""
-weight: 20
+weight: 30
 headless: true
 design:
   columns: "2"
@@ -21,19 +21,19 @@ design:
     image_parallax: true  # Use a fun parallax-like fixed background effect? true/false
   spacing:
     padding:
-      - 100px
+      - 200px
       - "0"
-      - 100px
+      - 200px
       - "0"
 cta:
-  url: "#actinowax"
-  label: "Products"
+  url: "/sustainability"
+  label: "<i>#alwaysresponsible</i>"
   icon_pack: "fas"
-  icon: "vial"
+  icon: ""
 
 cta_alt:
-  url: "/technology"
-  label: "Technology"
+  url: "/the-palm-oil-problem"
+  label: "<i>#palmfree</i>"
 
 ---
 ### <center>Unparalleled and uncompromising</center>

@@ -1,0 +1,15 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $bg := $page.Params.design.background }}
+
+
+<div class="row">
+
+  {{/* Hero image */}}
+
+  </div>
+  <div class="col-md-12">
+    <img src="{{ printf "img/%s" $page.Params.hero_media | relURL }}" alt="">
+  </div>
+</div>
+

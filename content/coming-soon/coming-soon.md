@@ -2,15 +2,16 @@
 advanced:
   css_style: ""
   css_class: ""
-widget: actinowax
+widget: coming-soon
 active: true
 filename: img/about.png
 subtitle: ""
-title: "Natural defence factors"
-weight: 20
+title: ""
+weight: 15
+
 headless: true
 design:
-  columns: "1"
+  columns: "2"
   background:
     color: rgb(255, 255, 255)
     text_color_light: false
@@ -21,23 +22,21 @@ design:
     image_parallax: false  # Use a fun parallax-like fixed background effect? true/false
   spacing:
     padding:
-      - 50px
+      - 0px
       - "0"
-      - 50px
+      - 0px
       - "0"
-hero_media: "C13-cream-box.png"
+
+hero_media: "C13-combo-box.png"
+
 cta:
-  url: "/science"
-  label: "Learn more"
+  url: "#contact"
+  label: "BE THE FIRST TO KNOW"
   icon_pack: "fas"
-  icon: "book-open"
+  icon: "envelope"
+
 ---
 
-***Powerful natural protection***<br>
-***So why settle for anything less?***
-
-
-
-Actinowax™ is produced by the industrial fermentation of sustainable sugars. By replacing ingredients derived from palm oil with sustainable and ethical alternatives, we can reduce the environmental impact of cosmetic products. 
-
+# COMING SOON
+<h2>2022</h2> 
 <br>

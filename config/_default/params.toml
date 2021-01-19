@@ -41,10 +41,10 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = "RhYme Biotechnology"
+org_name = "Carbon-13"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Rhyme Biotechnology is developing technologies to deliver cosmetic ingredients that have unparalleled performance and uncompromising sustainable."
+description = "Carbon-13 is developing skincare technologies that replenish and renew the skin's natural defense factors."
 
 ############################
 ## Site Features

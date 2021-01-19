@@ -2,15 +2,16 @@
 advanced:
   css_style: ""
   css_class: ""
-widget: actinowax
+widget: product-2
 active: true
 filename: img/about.png
 subtitle: ""
-title: "Natural defence factors"
-weight: 20
+title: ""
+weight: 15
+
 headless: true
 design:
-  columns: "1"
+  columns: "2"
   background:
     color: rgb(255, 255, 255)
     text_color_light: false
@@ -23,21 +24,18 @@ design:
     padding:
       - 50px
       - "0"
-      - 50px
+      - 0 px
       - "0"
+
 hero_media: "C13-cream-box.png"
+
 cta:
-  url: "/science"
-  label: "Learn more"
+  url: "/coming-soon"
+  label: "SHOP NOW"
   icon_pack: "fas"
-  icon: "book-open"
+  icon: ""
+
 ---
 
-***Powerful natural protection***<br>
-***So why settle for anything less?***
-
-
-
-Actinowax™ is produced by the industrial fermentation of sustainable sugars. By replacing ingredients derived from palm oil with sustainable and ethical alternatives, we can reduce the environmental impact of cosmetic products. 
-
-<br>
+## The replenishing defense cream
+<h4>$120</h4> 

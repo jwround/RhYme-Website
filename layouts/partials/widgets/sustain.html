@@ -1,0 +1,55 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $bg := $page.Params.design.background }}
+
+
+<div class="row">
+  <div class="col-md-8 col-12 order-md-1 text-center text-md-left">
+
+
+    <h1 class="hero-title">
+      {{ with $page.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+      {{ with $page.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+    </h1>
+
+
+
+    
+
+  </div>
+
+
+
+
+
+  {{/* Hero image */}}
+
+
+
+</div>
+
+<div class="row">
+
+  <div class="col-12 col-md-8 order-md-1 text-center text-md-left">
+
+    {{ with $page.Content }}
+    <div class="">{{ . }}</div>
+    {{ end }}
+
+    
+
+  </div>
+
+</div>
+
+<div class="row justify-content-center">
+
+   <div class="col-12 col-md-8">
+    <img src="{{ printf "img/%s" $page.Params.hero_media | relURL }}" alt="">
+  </div>
+
+
+
+
+</div>
+
